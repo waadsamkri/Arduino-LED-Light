@@ -1,0 +1,22 @@
+void setup() {
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+void loop() {
+  // Turn on LED 1 (pin 13), then off
+  digitalWrite(13, HIGH);
+  delay(150);
+  digitalWrite(13, LOW);
+
+  // Turn on LED 2 (pin 12), then off
+  digitalWrite(12, HIGH);
+  delay(150);
+  digitalWrite(12, LOW);
+
+  // Turn on LED 3 (pin 11), then off
+  digitalWrite(11, HIGH);
+  delay(150);
+  digitalWrite(11, LOW);
+}
